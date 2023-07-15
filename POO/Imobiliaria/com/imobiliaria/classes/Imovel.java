@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class Imovel {
     private String endereco;
     private LocalDate dataCadastro;
-    protected boolean ativo;
+    protected boolean ativo; // todas as classes filhas de com.imobiliaria irão enxergar ativo;
 
     public Imovel(String endereco, LocalDate dataCadastro) {
         this.endereco = endereco;
