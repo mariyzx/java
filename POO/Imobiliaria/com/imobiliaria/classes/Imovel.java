@@ -7,7 +7,7 @@ public class Imovel {
     private LocalDate dataCadastro;
     private boolean ativo;
 
-    public Imovel(String endereco, LocalDate dataCadastro, boolean ativo) {
+    public Imovel(String endereco, LocalDate dataCadastro) {
         this.endereco = endereco;
         this.dataCadastro = dataCadastro;
         this.ativo = false;
