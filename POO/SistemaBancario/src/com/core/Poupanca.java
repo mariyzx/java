@@ -6,7 +6,7 @@ public class Poupanca extends Conta {
     public void sacar(double valor) {
         this.saldo -= valor + 2;
     }
-
+    // Overload (o Java vai saber qual método usar de acordo com o parâmetro
     public void simularRendimento() {
         saldo += 0.05;
     }
