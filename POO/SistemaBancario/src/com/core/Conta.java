@@ -1,7 +1,7 @@
 package com.core;
 
 public class Conta {
-    private double saldo;
+    protected double saldo;
 
     public void depositar(double valor) {
         this.saldo += valor;
