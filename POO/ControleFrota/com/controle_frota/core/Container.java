@@ -1,6 +1,6 @@
 package com.controle_frota.core;
 
-public class Container {
+public class Container implements ITransportador {
     private String modelo;
     private double capacidade;
 
@@ -23,5 +23,10 @@ public class Container {
 
     public void setCapacidade(double capacidade) {
         this.capacidade = capacidade;
+    }
+
+    @Override
+    public String transportar(String origem, String destino) {
+        return null;
     }
 }
