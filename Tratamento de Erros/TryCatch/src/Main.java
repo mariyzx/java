@@ -11,6 +11,8 @@ public class Main {
       System.out.println(resultado);
     } catch (ArithmeticException e) {
       System.out.println("Não é possível dividir por 0");
+    } finally {
+      System.out.println("Bloco finally");
     }
 
     Pessoa pessoa = new Pessoa("Mari");
